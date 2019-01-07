@@ -16,4 +16,16 @@ As with the top three most common words, the first system argument will convert 
 
 As an example, running the command "wordcount.py True frankenstein.txt" would run the file, finding the three most common words in the frankenstein.txt file, without regard for the case of the different words.
 
-As a second example, running the command "wordcount.py False frankenstein.txt house" would run the file to find the number of times that 'house' appeared in the frankenstein.txt file, and it would only consider the word 'house' with that exact casing.
+Example:
+```
+>>>>> python wordcount.py True frankenstein.txt
+The top three words in this file are 'the', 'and', and 'i'.
+```
+
+As a second example, running the command "wordcount.py False frankenstein.txt Frankenstein" would run the file to find the number of times that 'Frankenstein' appeared in the frankenstein.txt file, and it would only consider the word 'Frankenstein' with that exact casing.
+
+Example 2:
+```
+>>>>> python wordcount.py False frankenstein.txt Frankenstein
+The word 'Frankenstein' appears a total of 28 time(s) in the file.
+```
