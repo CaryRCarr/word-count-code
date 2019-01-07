@@ -7,7 +7,7 @@ Steps for use:
 When testing the functionality for finding the top three most common words, run the code using the following set-up:
 wordcount.py [Convert to Lower Case: True/False] [Path to Text File]
 
-The first system argument will convert all words to lower-case if true, allowing for identical words in different cases to be counted as a single word. The second argument will be taken as the path to the text file in question.
+The first system argument will convert all words to lower-case if true, allowing for identical words in different cases to be counted as a single word. The second argument will be taken as the path to the text file in question. So long as no key word is provided as a third argument, then the code will automatically return the top three most common words.
 
 When testing the functionality for finding the number of times a given word shows up in the file, run the code using the following set-up:
 wordcount.py [Convert to Lower Case: True/False] [Path to Text File] [Word To Be Found]
